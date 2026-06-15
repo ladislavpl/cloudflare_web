@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Co je Cloudflare? | Přehled služeb a funkcí</title>
+  <meta name="description"
+    content="Zjistěte, co je Cloudflare, k čemu slouží a jaké služby nabízí – CDN, DDoS ochrana, DNS, SSL a WAF. Přehledná vzdělávací stránka." />
+  <meta name="keywords" content="Cloudflare, CDN, DDoS ochrana, DNS, SSL, WAF, webová bezpečnost, síťová platforma" />
+  <meta name="author" content="Školní projekt" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vas-github-username.github.io/cloudflare_web/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vas-github-username.github.io/cloudflare_web/" />
+  <meta property="og:title" content="Co je Cloudflare? | Přehled služeb a funkcí" />
+  <meta property="og:description"
+    content="Cloudflare chrání a zrychluje weby po celém světě. Zjistěte, jak funguje CDN, DDoS ochrana, DNS resolver a další služby." />
+  <meta property="og:locale" content="cs_CZ" />
+  <meta property="og:site_name" content="Co je Cloudflare?" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Co je Cloudflare? | Přehled služeb a funkcí" />
+  <meta name="twitter:description"
+    content="Cloudflare chrání a zrychluje weby po celém světě. Zjistěte, jak funguje CDN, DDoS ochrana, DNS resolver a další služby." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Co je Cloudflare?",
+    "description": "Přehled toho, co je Cloudflare, k čemu slouží a jaké služby nabízí.",
+    "inLanguage": "cs",
+    "about": {
+      "@type": "Organization",
+      "name": "Cloudflare",
+      "url": "https://www.cloudflare.com",
+      "foundingDate": "2009"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ── Skip navigace (WCAG 2.4.1) ── -->
+  <a href="#hlavni-obsah" class="skip-link">Přejít na hlavní obsah</a>
+
+  <nav role="navigation" aria-label="Hlavní navigace">
+    <a href="#hlavni-obsah" class="nav-logo" aria-label="Cloudflare – přejít na úvod">
+      <span aria-hidden="true">☁️</span> Cloud<span>flare</span>
+    </a>
+    <ul role="list">
+      <li><a href="#co-je">Co je?</a></li>
+      <li><a href="#slouzí">Účel</a></li>
+      <li><a href="#sluzby">Služby</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" role="banner">
+    <span class="hero-badge" aria-hidden="true">Cloudflare – přehled</span>
+    <h1>Ochrana, rychlost<br />a spolehlivost<br />pro <span class="highlight">každý web</span></h1>
+    <p id="hero-desc">
+      Cloudflare je jedna z největších síťových platforem na světě. Používají ji miliony
+      webů, aplikací i firem, které potřebují být rychlé, bezpečné a dostupné.
+    </p>
+    <a href="#co-je" class="hero-cta" aria-describedby="hero-desc">
+      Zjistit více <span aria-hidden="true">↓</span>
+    </a>
+  </header>
+
+  <div class="divider" role="separator" aria-hidden="true"></div>
+
+  <main id="hlavni-obsah">
+
+    <section id="co-je" aria-labelledby="nadpis-co-je">
+      <h2 class="section-title" id="nadpis-co-je">Co je <span>Cloudflare?</span></h2>
+      <p class="section-subtitle">Stručné vysvětlení v pár větách</p>
+      <div class="info-card">
+        <p>
+          <strong>Cloudflare</strong> je americká technologická společnost, která provozuje
+          jednu z největších globálních sítí pro doručování obsahu a ochranu webů.
+          Funguje jako tzv. „reverzní proxy" – stojí mezi návštěvníky internetu a servery
+          webových stránek, přičemž filtruje provoz, chrání před útoky a urychluje načítání.
+          Díky síti více než <strong>300 datových center</strong> rozmístěných po celém světě
+          dokáže obsloužit stovky miliard internetových požadavků denně.
+          Základní verze služeb je přitom dostupná <strong>zdarma</strong> pro každého.
+        </p>
+      </div>
+    </section>
+
+    <div class="divider" role="separator" aria-hidden="true"></div>
+
+    <section id="slouzí" aria-labelledby="nadpis-slouzí">
+      <h2 class="section-title" id="nadpis-slouzí">K čemu Cloudflare <span>slouží?</span></h2>
+      <p class="section-subtitle">Čtyři hlavní oblasti, ve kterých Cloudflare pomáhá</p>
+      <div class="purpose-grid" role="list">
+        <div class="purpose-item" role="listitem">
+          <span class="purpose-icon" aria-hidden="true">🛡️</span>
+          <h3>Bezpečnost</h3>
+          <p>Chrání weby před kybernetickými útoky, škodlivými roboty a neoprávněným přístupem – automaticky a bez
+            složitého nastavení.</p>
+        </div>
+        <div class="purpose-item" role="listitem">
+          <span class="purpose-icon" aria-hidden="true">⚡</span>
+          <h3>Výkon</h3>
+          <p>Díky globální CDN síti se obsah webu načítá z nejbližšího serveru na světě, takže stránky se uživatelům
+            zobrazují výrazně rychleji.</p>
+        </div>
+        <div class="purpose-item" role="listitem">
+          <span class="purpose-icon" aria-hidden="true">🌐</span>
+          <h3>Dostupnost</h3>
+          <p>Pokud váš hosting selže, Cloudflare může stále obsluhovat návštěvníky z mezipaměti – web tak zůstane
+            online i při výpadku serveru.</p>
+        </div>
+        <div class="purpose-item" role="listitem">
+          <span class="purpose-icon" aria-hidden="true">🔒</span>
+          <h3>Soukromí a HTTPS</h3>
+          <p>Automaticky vydává SSL/TLS certifikáty, takže komunikace mezi uživatelem a webem je vždy zašifrovaná a
+            bezpečná.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="stats-bar" role="region" aria-label="Cloudflare v číslech">
+    <div class="inner">
+      <div>
+        <span class="stat-value" aria-label="20 procent">20 %</span>
+        <div class="stat-label">webového provozu internetu</div>
+      </div>
+      <div>
+        <span class="stat-value" aria-label="více než 300">300+</span>
+        <div class="stat-label">datových center po světě</div>
+      </div>
+      <div>
+        <span class="stat-value">2009</span>
+        <div class="stat-label">rok založení</div>
+      </div>
+      <div>
+        <span class="stat-value">Zdarma</span>
+        <div class="stat-label">základní plán pro každého</div>
+      </div>
+    </div>
+  </div>
+
+  <main id="sluzby-main">
+    <section id="sluzby" aria-labelledby="nadpis-sluzby">
+      <h2 class="section-title" id="nadpis-sluzby">Vybrané <span>služby</span></h2>
+      <p class="section-subtitle">Co Cloudflare konkrétně nabízí</p>
+      <div class="services-grid" role="list">
+
+        <article class="service-card" role="listitem" aria-labelledby="sluzba-cdn-title">
+          <div class="service-number" aria-hidden="true">Služba 01</div>
+          <h3 id="sluzba-cdn-title">CDN – Content Delivery Network</h3>
+          <p>
+            Cloudflare ukládá kopie vašeho webu do datových center po celém světě,
+            takže návštěvníci stahují obsah z geograficky nejbližšího serveru
+            a stránky se načítají mnohem rychleji.
+          </p>
+          <span class="service-tag">Výkon</span>
+        </article>
+
+        <article class="service-card" role="listitem" aria-labelledby="sluzba-ddos-title">
+          <div class="service-number" aria-hidden="true">Služba 02</div>
+          <h3 id="sluzba-ddos-title">DDoS ochrana</h3>
+          <p>
+            Cloudflare automaticky detekuje a blokuje distribuované útoky (DDoS),
+            které se snaží web zahltit obrovským množstvím požadavků –
+            legitimní návštěvníci tak nejsou nijak ovlivněni.
+          </p>
+          <span class="service-tag">Bezpečnost</span>
+        </article>
+
+        <article class="service-card" role="listitem" aria-labelledby="sluzba-dns-title">
+          <div class="service-number" aria-hidden="true">Služba 03</div>
+          <h3 id="sluzba-dns-title">DNS resolver</h3>
+          <p>
+            Cloudflare provozuje veřejný DNS resolver na adrese <strong>1.1.1.1</strong>,
+            který patří k nejrychlejším a nejsoukromějším DNS službám na světě –
+            neukládá záznamy o vašich dotazech.
+          </p>
+          <span class="service-tag">Soukromí</span>
+        </article>
+
+        <article class="service-card" role="listitem" aria-labelledby="sluzba-ssl-title">
+          <div class="service-number" aria-hidden="true">Služba 04</div>
+          <h3 id="sluzba-ssl-title">SSL / TLS certifikáty</h3>
+          <p>
+            Cloudflare automaticky zajistí bezplatný SSL certifikát pro váš web,
+            takže přechod na šifrovaný protokol HTTPS je otázkou jediného kliknutí
+            bez nutnosti technických znalostí.
+          </p>
+          <span class="service-tag">Bezpečnost</span>
+        </article>
+
+        <article class="service-card" role="listitem" aria-labelledby="sluzba-waf-title">
+          <div class="service-number" aria-hidden="true">Služba 05</div>
+          <h3 id="sluzba-waf-title">Web Application Firewall (WAF)</h3>
+          <p>
+            Firewall webových aplikací filtruje škodlivé HTTP požadavky a chrání
+            web před běžnými zranitelnostmi, jako jsou SQL injection nebo
+            cross-site scripting (XSS).
+          </p>
+          <span class="service-tag">Bezpečnost</span>
+        </article>
+
+        <article class="service-card" role="listitem" aria-labelledby="sluzba-pages-title">
+          <div class="service-number" aria-hidden="true">Služba 06</div>
+          <h3 id="sluzba-pages-title">Cloudflare Pages</h3>
+          <p>
+            Cloudflare Pages je platforma pro hostování statických webových stránek
+            přímo z repozitáře na GitHubu – nasazení je automatické po každém
+            commitu a hosting je zdarma.
+          </p>
+          <span class="service-tag">Hosting</span>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>
+      Vytvořeno jako školní projekt &nbsp;·&nbsp;
+      Zdroje: <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer"
+        aria-label="Cloudflare – oficiální web (otevře se v novém okně)">cloudflare.com</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
